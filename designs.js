@@ -30,7 +30,7 @@ function makeGrid() {
 	
 	cell = canvas.find('td');
 	
-	// When td is clicked by the user, change color of td
+	
 	cell.click(function() {
 		// Select color input
 		console.log("changeColor is running!");
@@ -41,7 +41,7 @@ function makeGrid() {
 	
 }
 
-// When size is submitted by the user, call makeGrid()
+
 var submitQuery;
 
 submitQuery = $('input[type="submit"]')
