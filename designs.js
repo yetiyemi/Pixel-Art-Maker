@@ -6,7 +6,7 @@
 function makeGrid() {
 
 // Your code goes here!
-console.log("makeGrid is running!")
+	console.log("makeGrid is running!")
 	
 	// Select size input
 	
@@ -50,4 +50,3 @@ submitQuery.click(function(event) {
   event.preventDefault();
   makeGrid();
 });
-}
